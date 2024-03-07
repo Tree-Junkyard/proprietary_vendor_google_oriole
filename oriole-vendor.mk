@@ -78,46 +78,30 @@ PRODUCT_COPY_FILES += \
     vendor/google/oriole/proprietary/system_ext/priv-app/EuiccSupportPixel/esim-full-v1.img:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/EuiccSupportPixel/esim-full-v1.img
 
 PRODUCT_PACKAGES += \
-    VZWAPNLib \
-    AppDirectedSMSService \
     CarrierSettings \
-    CarrierWifi \
-    ConnMO \
-    DCMO \
-    DMService \
-    DeviceIntelligenceNetworkPrebuilt \
     DevicePersonalizationPrebuiltPixel2021 \
     DiagMon \
     EuiccGoogle \
     HardwareInfo \
     HotwordEnrollmentOKGoogleFUSION \
     HotwordEnrollmentXGoogleFUSION \
-    OemDmTrigger \
     PixelCameraServicesOriole \
-    TetheringEntitlement \
-    WfcActivation \
     OemRilHookService \
-    CarrierSetup \
-    ConnectivityThermalPowerManager \
     EuiccGoogleOverlay \
     EuiccSupportPixel \
     EuiccSupportPixelPermissions \
     HbmSVManager \
     LLKAgent \
-    MyVerizonServices \
     OemRilService \
-    RilConfigService \
     ShannonIms \
     ShannonQualifiedNetworksService \
     ShannonRcs \
-    grilservice \
     libhwinfo \
     RadioConfigLib \
     com.android.hotwordenrollment.common.util \
     com.google.android.camera.experimental2022_system \
     com.google.android.camera.extensions \
     com.google.android.camerax.extensions \
-    google-ril \
     oemrilhook \
     vendor.google.edgetpu_app_service@1.0-service
 PRODUCT_COPY_FILES += \
